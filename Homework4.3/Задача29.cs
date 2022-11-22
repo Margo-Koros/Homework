@@ -9,6 +9,6 @@ Random rnd = new Random();
 
 for (int i = 0; i < size; i++)
 {
-    array[i] = rnd.Next(98);
+    array[i] = rnd.Next();
     Console.Write($"{array[i]}, ");
 }
